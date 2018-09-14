@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+#root {
+  /* Center and scale the image nicely */
+  /* background-image: url('./assets/background.jpg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+.trail {
+  margin-top: 10px;
+}

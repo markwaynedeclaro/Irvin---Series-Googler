@@ -1,0 +1,20 @@
+div.openPopup {
+  font-size: 15px;
+  width: 30%;
+}
+
+div.openPopup:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+div.openPopup img {
+  margin-top: -3px;
+  margin-right: 10px;
+  vertical-align: middle;
+  transition: all .2s ease-in-out;
+}
+
+div.openPopup img:hover {
+  transform: scale(1.1) translateZ(0);
+}

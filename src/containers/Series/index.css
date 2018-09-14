@@ -1,0 +1,29 @@
+input.userInput {
+  background-image: url('./../../assets/search.png');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px);
+  padding-left: 10px;
+  width: 350px;
+  height: 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #B0C6D1;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}

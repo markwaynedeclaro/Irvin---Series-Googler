@@ -1,0 +1,97 @@
+@font-face {
+  font-family: happyMonkey;
+  src: url('./../../assets/HappyMonkey.ttf');
+}
+@font-face {
+  font-family: fredoka;
+  src: url('./../../assets/FredokaOne-Regular.otf');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+div.seriesInfo {
+  font-family: Arial;
+  color: #444;
+}
+
+/* Clear floats after the columns */
+div.seriesInfo::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.showName {
+  width: 100%;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 42px;
+  margin-top: 5px;
+}
+
+
+
+article.left {
+  width: 75%;
+  float: left;
+}
+
+article.left .showImage {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+article.left figure img {
+  -webkit-border-radius: 10px 0 10px 0;
+  -moz-border-radius: 10px 0 10px 0;
+  border-radius: 10px 0 10px 0;
+}
+
+article.left .showSummary {
+  width: 98%;
+  font-family: Nunito Sans;
+  font-size: 16px;
+  background-color: #F2F2F2;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #F2F2F2;
+  text-align: left;
+}
+
+
+
+div.right {
+  width: 25%;
+  float: left;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #B4B6C2;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+div.right .infoHeader {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+div.right .field {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+div.right .value {
+  font-size: 12px;
+}
+
+div.right .rating {
+  margin-top: 5px;
+  opacity: 0.7;
+}
